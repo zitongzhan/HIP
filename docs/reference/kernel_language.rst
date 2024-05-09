@@ -1271,6 +1271,9 @@ Following is the list of supported floating-point intrinsics. Note that intrinsi
     * - | ``float __cosf(float  x)``
         | Calculate the fast approximate cosine of the input argument.
 
+    * - | ``float __exp10f(float  x)``
+        | Calculate the fast approximate base 10 exponential of the input argument.
+
     * - | ``float __expf(float  x)``
         | Calculate the fast approximate base e exponential of the input argument.
 
@@ -1290,7 +1293,7 @@ Following is the list of supported floating-point intrinsics. Note that intrinsi
         | Calculate the fast approximate base e logarithm of the input argument.
 
     * - | ``float __powf(float  x, float  y)``
-        | Calculate the fast approximate of x<sup>y</sup>.
+        | Calculate the fast approximate of x :sup:`y`.
 
     * - | ``float __sinf(float  x)``
         | Calculate the fast approximate sine of the input argument.
